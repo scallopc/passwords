@@ -1,0 +1,50 @@
+
+
+  <ion-menu contentId="content">
+
+    <ion-content>
+
+      <div class="menu-header-bg">
+        <div class="header-content">
+          <img src="../assets/logo/passwords-logo.png" alt="">
+        </div>
+      </div>
+
+      <ion-list class="menu-items" lines="none">
+
+        <ion-item class="active" href="/menu/(menucontent:add)">
+          <ion-icon src="../assets/myicons/add.svg"></ion-icon>
+          <ion-label>
+            Adicionar
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon src="../assets/myicons/user.svg"></ion-icon>
+          <ion-label>
+            Conta
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon src="../assets/myicons/add.svg"></ion-icon>
+          <ion-label>
+            Adicionar
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon src="../assets/myicons/sign-out.svg"></ion-icon>
+          <ion-label>
+            Sair
+          </ion-label>
+        </ion-item>
+
+      </ion-list>
+
+    </ion-content>
+
+  </ion-menu>
+
+  <ion-router-outlet name="menucontent" id="content" main></ion-router-outlet>
+

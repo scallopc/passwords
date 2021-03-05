@@ -1,0 +1,24 @@
+<!--<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" size="md" src="assets/myicons/arrow-small-left.svg"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/signup">Sign up</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <div id="header">
+    <img src="assets/logo/passwords-logo.png" />
+  </div>
+
+  <form id="form">
+    <app-input placeholder="Email"></app-input>
+    <app-input type="password" placeholder="Password"></app-input>
+    <ion-button expand="block" shape="round" (click)="login()">entrar</ion-button>
+  </form>
+</ion-content>

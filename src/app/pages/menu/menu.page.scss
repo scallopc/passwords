@@ -1,0 +1,58 @@
+/** variaveis*/
+$orange: #FF3100;
+$blue-lgt: #4ECDC4;
+$orange-pst: #ee6c4d;
+$green-pst: #1a535c;
+$white-lgt: #f7fff7;
+$font: 'Poppins', sans-serif;
+$font-teste: 'Hachi Maru Pop', cursive;
+
+.menu-header-bg {
+  height: 180px;
+  width: 350px;
+  background: $orange;
+}
+
+.header-content {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  margin-top: 70px;
+  margin-left: 70px;
+
+}
+
+.menu-items {
+    margin-top: 90px;
+
+    ion-icon {
+      margin-right: 20px;
+      color: $orange;
+    }
+
+   ion-label{
+    color: $orange;
+    font-family: $font;
+   }
+
+    ion-item {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .active {
+        border-left: 5px solid $green-pst;
+        color: $green-pst;
+        padding: 15px;
+
+        ion-icon {
+            color: $green-pst;
+        }
+
+        ion-label{
+            color: $green-pst;
+            font-family: $font;
+           }
+    }
+  
+}
